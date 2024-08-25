@@ -50,32 +50,47 @@ h6 {
 }
 
 body {
-  color: var(--white);
-  background-color: var(--dark-grey);
-}
-
-.title-container {
-  margin: 10px 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  color: var(--blue);
+  background-color: var(--light);
 }
 
-.title {
+header {
+  padding: 4rem 2rem 2rem;
+}
+
+header .title {
+  font-size: 4rem;
+  color: var(--red);
+  padding-bottom: 1rem;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subtitle h2 {
   font-size: 2.5rem;
+  font-style: italic;
 }
 
 .date-svg {
-  width: 30px;
-  height: 30px;
+  height: 32px;
+  width: 32px;
 }
 
 .divider {
-  margin: auto;
-  width: 150px;
-  height: 10px;
-  background-color: var(--yellow);
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: var(--red);
 }
 
 .dropdown-container {
