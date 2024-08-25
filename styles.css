@@ -1,15 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
+::before,
+::after {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 :root {
-  --dark-grey: #0a0a23;
-  --white: #ffffff;
-  --yellow: #f1be32;
+  --light: #fdfcdc;
+  --blue: #00afb9;
+  --red: #f07167;
 }
 
 body {
